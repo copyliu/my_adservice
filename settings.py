@@ -104,7 +104,7 @@ MIDDLEWARE_CLASSES = (
 
 ROOT_URLCONF = 'my_adservice.urls'
 
-TEMPLATE_DIRS = ('/Users/copyliu/PycharmProjects/my_adservice/templates',)
+TEMPLATE_DIRS = (os.path.join(PROJECT_ROOT,"templates"),)
 
 INSTALLED_APPS = (
     'django.contrib.auth',
